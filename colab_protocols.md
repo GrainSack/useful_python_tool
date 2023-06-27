@@ -36,3 +36,8 @@ tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=log_dir, histogram
 from torchviz import make_dot
 make_dot(out, params=dict(model_gen.named_parameters())).render("generator_unet_graph", format="png")
 ```
+### Log path
+```python
+%cd path
+!pwd #check
+```
