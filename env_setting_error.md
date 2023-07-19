@@ -18,9 +18,12 @@ keyring locked error
 ```
 
 using this command in terminal
-#### export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
+```bash
+export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
+```
 After trying again
+```bash
 poetry install
-
+```
 
 -------------------------------------------------------------------------------------------------
