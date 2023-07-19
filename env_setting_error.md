@@ -26,4 +26,15 @@ After trying again
 poetry install
 ```
 
+poetry activating
+```bash
+source "$( poetry env list --full-path | grep Activated | cut -d' ' -f1 )/bin/activate"
+```
+or
+```bash
+source $(poetry env info --path)/bin/activate
+alias acpoet="source $(poetry env info --path)/bin/activate"
+```
+(look) https://stackoverflow.com/questions/60580332/poetry-virtual-environment-already-activated
+
 -------------------------------------------------------------------------------------------------
