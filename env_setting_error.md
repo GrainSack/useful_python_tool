@@ -1,4 +1,13 @@
 ### Poetry
+poetry install in conda
+```
+conda install -n ndp -c conda-forge poetry
+```
+version check
+```
+poetry --version
+```
+
 Install
 ```bash
 curl -sSL https://install.python-poetry.org | python3 -
